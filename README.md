@@ -9,12 +9,14 @@ The expansive route is a succession of up-sampling and convolutional layers that
 The relevant feature map from the contracting path is concatenated with the current feature map at each step in the expansive path.
 
 ## Architecture
-![image](https://github.com/Mostafa-wael/U-Net-in-PyTorch/assets/56788883/4b3f54ae-e54d-41df-9eee-12572b3066d3)
+![image](https://github.com/Mostafa-wael/U-Net-in-PyTorch/assets/56788883/bf599396-011f-40d1-b053-f6d5f695a7d5)
 
 ## Example output
 Image -> Mask -> Predicted Mask
-![image](https://github.com/Mostafa-wael/U-Net-in-PyTorch/assets/56788883/ec7c3b5f-2dd3-405d-ae9c-c98744f62536)
+![download](https://github.com/Mostafa-wael/U-Net-in-PyTorch/assets/56788883/7ea799cb-2830-4841-a12b-fba6d60cbe04)
+>> Generated using this [test script](./test.py).
 
 ## Implementation 
-Check the attached notebook for the implementation details. 
+Check the [attached notebook](./U_Net.ipynb) for implementation details. 
+
 
